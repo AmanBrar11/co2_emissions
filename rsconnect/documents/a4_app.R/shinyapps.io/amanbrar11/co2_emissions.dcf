@@ -1,0 +1,13 @@
+name: co2_emissions
+title: co2_emissions
+username:
+account: amanbrar11
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 5462540
+bundleId: 5481742
+url: https://amanbrar11.shinyapps.io/co2_emissions/
+when: 1642526321.94112
+lastSyncTime: 1642526321.94112
+asMultiple: FALSE
+asStatic: FALSE

@@ -15,10 +15,10 @@ intro_tab <- tabPanel(
   )
 )
 # Gets the data for CO2 emissions.
-co2_data <- read.csv("https://raw.githubusercontent.com/info-201a-au21/a4-climate-change-AmanBrar11/main/owid-co2-data.csv?token=AT6RNRGNI2XIFVIPV7ROMIDBYQNUS")
+co2_data <- read.csv("https://raw.githubusercontent.com/AmanBrar11/co2_emissions/main/owid-co2-data.csv")
 
 # Gets the continents each country is in.
-continents <- read.csv("https://raw.githubusercontent.com/info-201a-au21/a4-climate-change-AmanBrar11/main/Countries-Continents.csv?token=AT6RNRHNP6BB3EWBAI5UUSTBYQNSO")
+continents <- read.csv("https://raw.githubusercontent.com/AmanBrar11/co2_emissions/main/Countries-Continents.csv")
 
 # Makes the makes identical column name for countries.
 colnames(continents) <- c("continent", "country")
@@ -63,7 +63,7 @@ plot_tab <- tabPanel(
 )
 
 ui <- navbarPage(
-  "Assignment 4: Climate Change",
+  "Climate Change",
   intro_tab,
   plot_tab
 )
